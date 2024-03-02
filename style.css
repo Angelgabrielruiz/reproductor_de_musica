@@ -6,11 +6,12 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Roboto', sans-serif;
+  
 }
 
 .container {
-  background-color: #282828; /* Fondo más oscuro para el reproductor */
-  border-radius: 10px;
+  background-color: #1e056ace; /* Fondo más oscuro para el reproductor */
+  border: 10px;
   width: 400px;
   height: 300px;
   display: flex;
@@ -18,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  color: #fff;
+  color: #506d17;
 }
 
 .container h1 {
@@ -83,4 +84,9 @@ body {
 #current_audio {
   bottom: 10px;
   right: 10px;
+}
+
+img {
+  width: 200px;
+  height: 150px;
 }
